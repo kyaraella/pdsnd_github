@@ -223,7 +223,7 @@ def user_stats(df):
     except KeyError:
         print('Gender data not available for this city.')
     
-    # Calculate and display earliest, most recent, and most common year of birth
+    # Calculate and display earliest, most recent, and most common year of birth. Try and except clause added as Washington does not have this data available. 
     try:
         earliest = int(df['Birth Year'].min())
         recent = int(df['Birth Year'].max())
