@@ -248,6 +248,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         
+        #Nested loop allows user to continuously see lines of raw data until they say 'no'.
         while True:
             rawdata = input('\nWould you like to see the raw data? Enter yes or no.\n')
             if rawdata.lower() not in ('yes', 'no'):
