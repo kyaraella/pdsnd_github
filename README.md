@@ -10,8 +10,8 @@ Explore U.S. Bikeshare Data
 Python script that allows user to explore bikeshare statistics by city, month, and day of the week. 
 
 ### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+bikeshare.py
+chicago.csv
+washington.csv
+new_york_city.csv
 
