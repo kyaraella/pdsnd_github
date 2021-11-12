@@ -7,7 +7,7 @@ November 12, 2021
 Explore U.S. Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Python script that allows user to explore bikeshare statistics by city, month, and day of the week. 
 
 ### Files used
 Include the files used
